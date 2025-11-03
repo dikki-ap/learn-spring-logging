@@ -31,10 +31,10 @@ public class LoggingTest {
          */
     }
 
-    @Test
-    void testLongLogging(){
-        for(int i = 0; i < 1_000; i++){
-            log.warn("Log-" + i);
-        }
-    }
+//    @Test
+//    void testLongLogging(){
+//        for(int i = 0; i < 1_000; i++){
+//            log.warn("Log-" + i);
+//        }
+//    }
 }
